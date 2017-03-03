@@ -490,6 +490,7 @@ h6,
 
 
 
+
 #menu-0 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -559,6 +560,13 @@ h6,
 #menu-0 .close-icon::after {
   background-color: #000000;
 }
+#msg-box5-a H3 {
+  font-family: 'Roboto', sans-serif;
+  text-align: right;
+}
+#msg-box5-a P {
+  text-align: center;
+}
 #features3-c H5 {
   text-align: center;
   font-size: 13px;
@@ -582,6 +590,11 @@ h6,
   font-family: 'Roboto', sans-serif;
 }
 
+
+#msg-box5-k H3 {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+}
 #features3-j H4 {
   text-align: center;
   font-family: 'Roboto', sans-serif;

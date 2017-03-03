@@ -843,7 +843,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/naamloos-2.jpg",
+              "src": "@PROJECT_PATH@/assets/images/naamloos-3.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -961,7 +961,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/dtfcgvjhbkj-1400x134313.jpg",
+              "src": "@PROJECT_PATH@/assets/images/dtfcgvjhbkj-1400x134314.jpg",
               "link": "",
               "alt": "",
               "title": "",

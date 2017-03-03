@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "contact",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -22,19 +22,12 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 21,
+    "uniqCompNum": 23,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": "true"
   },
   "pages": {
-    "page4.html": {
-      "settings": {
-        "title": "Website Generator Title",
-        "meta_descr": "Website Generator Description"
-      },
-      "components": []
-    },
     "home.html": {
       "settings": {
         "main": true,
@@ -958,7 +951,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/dtfcgvjhbkj-1400x13433.jpg",
+              "src": "@PROJECT_PATH@/assets/images/dtfcgvjhbkj-1400x13435.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -1086,6 +1079,71 @@
               "font-family": "'Roboto', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
               "font-size": "25px"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "settings": {
+        "title": "contact",
+        "meta_descr": "Website Generator Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-m",
+          "_params": {
+            "labelsColor": "#000000",
+            "paddingTop": "1",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "<span style=\"font-weight: normal;\">CONTACT</span>",
+          "subtitle": "",
+          "form": {
+            "action": "lennyver@hotmail.com",
+            "alerts": {
+              "success": "thank you for the message. i will respond as fast as i can"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-secondary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SEND</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#000000"
             }
           }
         }

@@ -1,7 +1,7 @@
 {
   "settings": {
-    "currentPage": "index.html",
-    "name": "My Site",
+    "currentPage": "paintings.html",
+    "name": "NL",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -18,14 +18,18 @@
         "isRoundedButtons": false,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false,
-        "isRtl": true
+        "isRtl": false
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 28,
+    "uniqCompNum": 31,
     "versionPublish": "3.12.1",
     "favicon": "",
-    "noImageResize": "true"
+    "noImageResize": "",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png",
+    "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-99089908-1', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
+    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>."
   },
   "pages": {
     "home.html": {
@@ -54,13 +58,15 @@
               "color": "#000000"
             },
             ".link, .dropdown-item": {
-              "color": "#000000"
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-family": "'Roboto', sans-serif"
             },
             ".link": {
-              "font-size": "1rem"
+              "font-size": "0.95rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.083rem"
+              "font-size": "1.029rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -132,7 +138,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Lenny Vervaeke</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">language</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">english</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">nederlands</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"paintings.html\">paintings</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"drawings.html\">drawings</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"exhibitions.html\">exhibitions</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"contact.html\">contact</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">taal</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">english</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">nederlands</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"paintings.html\">schilderijen</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"exhibitions.html\">expo's</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"contact.html\">contact</a></li>"
         },
         {
           "_name": "header1",
@@ -222,7 +228,6 @@
           },
           "media": {
             "image": {
-              "active": true,
               "width": 1400,
               "src": "@PROJECT_PATH@/assets/images/dtfcgvjhbkj-1400x1343.jpg",
               "link": "",
@@ -238,12 +243,17 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "linkInNewWindow": false,
+              "name": "instagram",
+              "family": "socicon",
               "link": "",
-              "size": 0
+              "size": 0,
+              "color": "#ffffff",
+              "active": true
             }
           },
           "title": "lenny vervaeke",
-          "text": "exhibitions",
+          "text": "expo's",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         },
         {
@@ -257,6 +267,9 @@
               "font-family": "'Roboto', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
               "font-size": "25px"
+            },
+            "P": {
+              "text-align": "left"
             }
           },
           "_anchor": "features3-j",
@@ -290,9 +303,9 @@
               "active": true
             }
           },
-          "title1": "running",
+          "title1": "",
           "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Sale' at 'CC De Stroming' Berlare, Belgium 3 march till 7 may 2017'",
+          "caption1": "'Sidderaal' in 'LUCA school of arts' Gent, België 8 juni tot 10 juni 2017<br>'Sale' in 'CC De Stroming' Berlare, België 3 maart tot 7 mei2017'",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
@@ -453,7 +466,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Lenny Vervaeke</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">language</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">english</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">nederlands</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"paintings.html\">paintings</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"drawings.html\">drawings</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"exhibitions.html\">exhibitions</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"contact.html\">contact</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">taal</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">english</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">nederlands</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"paintings.html\">schilderijen</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"exhibitions.html\">expo's</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"contact.html\">contact</a></li>"
         }
       ]
     },
@@ -561,7 +574,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Lenny Vervaeke</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">language</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">english</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">nederlands</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"paintings.html\">paintings</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"drawings.html\">drawings</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"exhibitions.html\">exhibitions</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"contact.html\">contact</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">taal</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">english</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">nederlands</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"paintings.html\">schilderijen</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"exhibitions.html\">expo's</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"contact.html\">contact</a></li>"
         },
         {
           "_tags": [
@@ -594,27 +607,27 @@
           "form": {
             "action": "lennyver@hotmail.com",
             "alerts": {
-              "success": "thank you for the message. i will respond as fast as i can"
+              "success": "bedankt om contact op te nemen. ik zal zo spoedig mogelijk antwoorden."
             },
             "fields": {
               "name": {
                 "title": "Name",
                 "visible": true,
-                "customTitle": "Name*"
+                "customTitle": "naam*"
               },
               "email": {
                 "title": "Email",
                 "visible": true,
-                "customTitle": "Email*"
+                "customTitle": "email*"
               },
               "phone": {
                 "title": "Phone",
                 "visible": true,
-                "customTitle": "Phone"
+                "customTitle": "tel."
               },
               "message": {
                 "title": "Message",
-                "customTitle": "Message"
+                "customTitle": "bericht"
               }
             }
           },
@@ -726,7 +739,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Lenny Vervaeke</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">language</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">english</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">nederlands</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"paintings.html\">paintings</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"drawings.html\">drawings</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"exhibitions.html\">exhibitions</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"contact.html\">contact</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">taal</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">english</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">nederlands</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"paintings.html\">schilderijen</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"exhibitions.html\">expo's</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"contact.html\">contact</a></li>"
         },
         {
           "_tags": [
@@ -751,7 +764,7 @@
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -767,9 +780,8 @@
           },
           "media": {
             "image": {
-              "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/dtfcgvjhbkj-1400x13435.jpg",
+              "src": "@PROJECT_PATH@/assets/images/dtfcgvjhbkj-1400x13437.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -783,13 +795,145 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
               "link": "",
-              "size": 0
+              "size": 0,
+              "color": "#ffffff",
+              "active": true
             }
           },
           "title": "lenny vervaeke",
-          "text": "paintings",
+          "text": "schilderijen",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_styles": {
+            "H4": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            }
+          },
+          "_anchor": "features3-t",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "3",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/img-3014kopie.gif",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "<span style=\"font-weight: normal;\">zonder titel</span>",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "<i>2017</i><br><i>10 cm x 10 cm<br>olie en grafiet op kunststof</i>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/img-3011kopie.gif",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "<span style=\"font-weight: normal;\">zonder titel</span>",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "<i>2017</i><br><i>10 cm x 10 cm<br></i>olie en grafiet op kunststof<br>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/img-3013kopie.gif",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "<span style=\"font-weight: normal;\">zonder titel</span>",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "<i>2017</i><br><i>10 cm x 10 cm<br></i>olie en tape op kunststof<br>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/img-3014kopie.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "untitled",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
           "_tags": [
@@ -831,6 +975,22 @@
           },
           "media1": {
             "image": {
+              "src": "@PROJECT_PATH@/assets/images/rood2.gif",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "<span style=\"font-weight: normal;\">Red on Grey</span>",
+          "subtitle1": "2017<br>80cm x 50cm<br><span style=\"font-size: 0.875rem; line-height: 1.7857;\">olie en lak op doek</span><br>",
+          "caption1": "",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "media2": {
+            "image": {
               "src": "@PROJECT_PATH@/assets/images/naamloos.gif",
               "class": "card-img-top",
               "width": 600,
@@ -841,24 +1001,8 @@
               "linkInNewWindow": false
             }
           },
-          "title1": "<span style=\"font-weight: normal;\">Red On Grey</span>",
-          "subtitle1": "2017<br>80cm x 50cm<br><span style=\"font-size: 0.875rem; line-height: 1.7857;\">&nbsp;oil and lacquer on canvas</span><br>",
-          "caption1": "",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "media2": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/naamloos-800x800.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
           "title2": "<span style=\"font-weight: normal;\">Grey, Green, Blue, Red, White and Black</span>",
-          "subtitle2": "2017<br><span style=\"line-height: 1.7857;\">95cm x 115cm</span><br>oil, lacquer and marker on canvas",
+          "subtitle2": "2017<br><span style=\"line-height: 1.7857;\">95cm x 115cm</span><br>olie, stift en lak op doek",
           "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
@@ -946,7 +1090,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/werk-2-2000x2408.jpg",
+              "src": "@PROJECT_PATH@/assets/images/dsc-4311kopie.gif",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -957,12 +1101,12 @@
             }
           },
           "title1": "<span style=\"font-weight: normal;\">50.966346,3.164742</span>",
-          "subtitle1": "<span style=\"font-size: 0.875rem; line-height: 1.7857;\">2016</span><br>95cm x 115cm<br>oil, lacquer, spray paint and graphite on canvas",
+          "subtitle1": "<span style=\"font-size: 0.875rem; line-height: 1.7857;\">2016</span><br>95cm x 115cm<br>olie, grafiet, spuitbus en lak op doek",
           "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/tumblr-o8v2lztgq41t96ni3o9-800x968.jpg",
+              "src": "@PROJECT_PATH@/assets/images/tumblr-o8v2lztgq41t96ni3o9.gif",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -972,8 +1116,8 @@
               "linkInNewWindow": false
             }
           },
-          "title2": "<span style=\"font-weight: normal;\">Untitled Landscape</span>",
-          "subtitle2": "2016<br>100cm x 120cm<br>oil and graphite on canvas",
+          "title2": "<span style=\"font-weight: normal;\">landschap zonder titel</span>",
+          "subtitle2": "2016<br>100cm x 120cm<br>olie en lak op doek",
           "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
@@ -1065,7 +1209,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/naamloos-800x670.jpg",
+              "src": "@PROJECT_PATH@/assets/images/naamloos-1.gif",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -1076,12 +1220,12 @@
             }
           },
           "title1": "<span style=\"font-weight: normal;\">Shape Study, Yellow and White</span>",
-          "subtitle1": "2016<br>20cm x 21cm x 1,5cm<br>oil and lacquer on wood<br><br>",
+          "subtitle1": "2016<br>20cm x 21cm x 1,5cm<br>olie en lak op hout",
           "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/naamloos-1.jpg",
+              "src": "@PROJECT_PATH@/assets/images/naamloos-2.gif",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -1092,7 +1236,7 @@
             }
           },
           "title2": "<span style=\"font-weight: normal;\">Shape Study</span>",
-          "subtitle2": "2017<br>24cm x 30cm<br>oil and spray paint on canvas<br>",
+          "subtitle2": "2017<br>24cm x 30cm<br>olie en spuitbus op doek",
           "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
@@ -1180,7 +1324,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/14875802-10207585648500457-256559508-o-800x634.jpg",
+              "src": "@PROJECT_PATH@/assets/images/14875802-10207585648500457-256559508-o-2.gif",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -1191,12 +1335,12 @@
             }
           },
           "title1": "<span style=\"font-weight: normal;\">Black, Pink ,Yellow, Blue and White</span>",
-          "subtitle1": "2016<br>40cm x 43cm x 3cm.<br> oil, resin, lacquer and a tile on wood",
+          "subtitle1": "2016<br>40cm x 43cm x 3cm.<br>olie, hars en lak op hout",
           "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/gh.jpg",
+              "src": "@PROJECT_PATH@/assets/images/naamloos-2jpg.gif",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -1207,7 +1351,7 @@
             }
           },
           "title2": "<span style=\"font-weight: normal;\">Shape studies</span>",
-          "subtitle2": "2016<br>46cm x 95cm<br>oil and lacquer on canvas",
+          "subtitle2": "2016<br>46cm x 95cm<br>olie en lak op doek",
           "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
@@ -1295,7 +1439,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/naamloos-3.jpg",
+              "src": "@PROJECT_PATH@/assets/images/naamloos-3.gif",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -1305,13 +1449,13 @@
               "linkInNewWindow": false
             }
           },
-          "title1": "<span style=\"font-weight: normal;\">Piano Lesson 2016, Homage To Matisse</span>",
-          "subtitle1": "<span style=\"font-family: Lora, serif; font-size: 0.875rem; line-height: 1.7857;\">2016</span><br><span style=\"font-family: Lora, serif; font-size: 0.875rem; line-height: 1.7857;\">25cm x 30cm</span><br><span style=\"font-family: Lora, serif; font-size: 0.875rem; line-height: 1.7857;\">oil and lacquer on canvas<br></span><span style=\"font-family: Lora, serif; font-size: 0.875rem; line-height: 1.7857;\"><br></span><br><br>",
+          "title1": "<span style=\"font-weight: normal;\">Piano Lesson 2016, Homage Aan Matisse</span>",
+          "subtitle1": "<span style=\"font-family: Lora, serif; font-size: 0.875rem; line-height: 1.7857;\">2016</span><br><span style=\"font-family: Lora, serif; font-size: 0.875rem; line-height: 1.7857;\">25cm x 30cm</span><br><span style=\"font-family: Lora, serif; font-size: 0.875rem; line-height: 1.7857;\">olie en lak op doek<br></span><br><br>",
           "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/ghy.jpg",
+              "src": "@PROJECT_PATH@/assets/images/trydfguy.gif",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -1321,8 +1465,8 @@
               "linkInNewWindow": false
             }
           },
-          "title2": "<span style=\"font-weight: normal;\">Untitled</span>",
-          "subtitle2": "2016<br>A4<br>oil, lacquer and graphite on cardboard",
+          "title2": "<span style=\"font-weight: normal;\">Zonder titel</span>",
+          "subtitle2": "2016<br>A4<br>olie, vinyl en lak op doek",
           "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
@@ -1407,12 +1551,32 @@
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "left"
+            },
+            ".mbr-section-title SPAN": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "color": "#434343"
+            },
+            ".mbr-section-lead": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "color": "#8e8e8e",
+              "text-align": "right"
+            },
+            ".btn": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          },
           "_anchor": "header1-p",
           "_params": {
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/achtergrond-1.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/achtergrond.gif",
             "bgColor": "#ffffff",
             "bgColorRadio": false,
             "bgVideo": {
@@ -1428,37 +1592,9 @@
             "showButtons": true
           },
           "title": "<span style=\"font-weight: normal;\">lenny vervaeke</span>",
-          "text": "Painter . Belgium . Ghent",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"paintings.html\" data-toolbar=\"-mbrBtnMove\">paintings</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"drawings.html\" data-toolbar=\"-mbrBtnMove\">drawings</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"exhibitions.html\" data-toolbar=\"-mbrBtnMove\">exhibitions</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"contact.html\" data-toolbar=\"-mbrBtnMove\">contact</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "text-align": "left"
-            },
-            ".mbr-section-title SPAN": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "color": "#434343"
-            },
-            ".mbr-section-lead": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "color": "#8e8e8e",
-              "text-align": "right"
-            },
-            ".btn": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            }
-          }
-        }
-      ]
-    },
-    "drawings.html": {
-      "settings": {
-        "title": "Web Site Generator Title",
-        "meta_descr": "Web Site Generator Description"
-      },
-      "components": [
+          "text": "Schilder . België . Gent",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"paintings.html\" data-toolbar=\"-mbrBtnMove\">schilderijen</a>  <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"exhibitions.html\" data-toolbar=\"-mbrBtnMove\">expo's</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"contact.html\" data-toolbar=\"-mbrBtnMove\">contact</a>"
+        },
         {
           "_styles": {
             ".hide-buttons .nav-btn": {
@@ -1524,7 +1660,7 @@
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-q",
+          "_anchor": "menu-0",
           "_params": {
             "bgColor": "#ffffff",
             "fontSize": "0.95",
@@ -1557,41 +1693,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Lenny Vervaeke</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">language</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">english</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">nederlands</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"paintings.html\">paintings</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"drawings.html\">drawings</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"exhibitions.html\">exhibitions</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"contact.html\">contact</a></li>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header1",
-          "_anchor": "header1-r",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
-            "showArrow": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "contentAlign": "left",
-            "showTitle": true,
-            "showText": false,
-            "showButtons": false
-          },
-          "title": "under construction",
-          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#000000"
-            }
-          }
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">taal</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">english</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">nederlands</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"paintings.html\">schilderijen</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"exhibitions.html\">expo's</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"contact.html\">contact</a></li>"
         }
       ]
     }
